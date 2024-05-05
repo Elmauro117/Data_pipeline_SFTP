@@ -1,0 +1,7 @@
+## use db_name_mauro
+
+#create table Iris_dataset1 (Id int, sepal_length numeric(6,2),sepal_width float,petal_length float, petal_width float,class varchar(200));
+
+## ALTER TABLE Iris_dataset1 ADD Volumen_Iris varchar(255);
+
+select * from Iris_dataset1

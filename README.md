@@ -15,15 +15,15 @@ This is the structure of the Data Pipeline:
 This were the processes and resources created to build the DataPipeline.
 The lambdas and the Glue Job have IAM roles, in order to extract data from s3 and process it.
 
-![Alt text](screenshot/s3.JPG)
+![Alt text](screenshot/s3.jpeg)
 
-![Alt text](screenshot/lambda.JPG)
+![Alt text](screenshot/lambda.jpeg)
 
-![Alt text](screenshot/lambda2.JPG)
+![Alt text](screenshot/lambda2.jpeg)
 
-![Alt text](screenshot/glue.JPG)
+![Alt text](screenshot/glue.jpeg)
 
-![Alt text](screenshot/rds.JPG)
+![Alt text](screenshot/rds.jpeg)
 
 Connect to the RDS through DBeaver in your local machine:
 

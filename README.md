@@ -10,28 +10,28 @@ The Python.zip file contains the pymysql package in order to connect to the RDS 
 
 This is the structure of the Data Pipeline:
 
-![Alt text](screenshots/sftp-pipeline.jpg)
+![Alt text](screenshot/sftp-pipeline.jpg)
 
 This were the processes and resources created to build the DataPipeline.
 The lambdas and the Glue Job have IAM roles, in order to extract data from s3 and process it.
 
-![Alt text](screenshots/s3.JPG)
+![Alt text](screenshot/s3.JPG)
 
-![Alt text](screenshots/lambda.JPG)
+![Alt text](screenshot/lambda.JPG)
 
-![Alt text](screenshots/lambda2.JPG)
+![Alt text](screenshot/lambda2.JPG)
 
-![Alt text](screenshots/glue.JPG)
+![Alt text](screenshot/glue.JPG)
 
-![Alt text](screenshots/rds.JPG)
+![Alt text](screenshot/rds.JPG)
 
 Connect to the RDS through DBeaver in your local machine:
 
-![Alt text](screenshots/1.jpeg)
+![Alt text](screenshot/1.jpeg)
 
 In your local machine Double Check if the RDS actually ingested the data:
 
-![Alt text](screenshots/2.jpeg)
+![Alt text](screenshot/2.jpeg)
 
 That's it
 
